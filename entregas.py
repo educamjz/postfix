@@ -1,4 +1,11 @@
 #!/usr/bin/python3
+
+############################################################################################################
+#
+# Descripción: script para extraer las entregas de correo hechas por postix a partir de la información
+#              de "maillog", depositando el resultado en un fichero CSV seprado por ";"
+#
+############################################################################################################
 import re
 import sys
 
