@@ -77,7 +77,7 @@ except OSError:
 try:
   with open("entregas.csv", "w") as f:
     # Imprimimos cabecera CSV
-    f.write("Ticket;Día;Hora;De;Para\n")
+    f.write("Ticket;Dia;Hora;De;Para\n")
 
     # Recorremos el diccionario y escribimos los valores para cada clave (ticket) en el fichero
     for ticket, correos in lista_correos.items():
