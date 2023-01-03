@@ -84,6 +84,6 @@ try:
       if len(correos) == 3:
         f.write(f"{ticket};{';'.join(correos)}\n")
 except OSError:
-  # Si se produce un error al abrir el fichero, mostramos un mensaje de error y terminamos el script
+    # Si se produce un error al abrir el fichero, mostramos un mensaje de error y terminamos el script
     print("\n[!] Error: no se puede abrir el fichero de salida CSV\n")
     sys.exit(1)
