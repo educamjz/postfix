@@ -3,7 +3,7 @@
 ############################################################################################################
 #
 # Descripción: script para extraer las entregas de correo hechas por postix a partir de la información
-#              de "maillog", depositando el resultado en un fichero CSV seprado por ";"
+#              de "maillog", depositando el resultado en un fichero CSV llamado "entregas.csv"
 #
 ############################################################################################################
 import re
